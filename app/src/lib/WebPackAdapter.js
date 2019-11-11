@@ -10,7 +10,7 @@ class FileSync extends Base {
         //if (fs.existsSync(this.source)) {
         if (this.source) {
             // Read database
-            console.log(this.source)
+            //console.log(this.source)
             return this.source
             // try {
             //     //const data = readFile(this.source, 'utf-8').trim()
