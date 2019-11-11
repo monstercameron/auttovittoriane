@@ -1,0 +1,25 @@
+.read-more {
+    letter-spacing: .1rem;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  /* animation-name: read-more-anim;
+  animation-duration: 0.25s;
+  animation-direction: reverse; */
+}
+.read-more:hover {
+    letter-spacing: .33rem;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  animation-name: read-more-anim;
+  animation-duration: 0.25s;
+}
+@keyframes read-more-anim {
+  from {
+    letter-spacing: .1rem;
+    color: rgba(0, 0, 0, 1);
+  }
+  to {
+    letter-spacing: .33rem;
+    color: rgba(255, 255, 255, 1);
+  }
+}
