@@ -6,7 +6,7 @@ const Header = props => {
     <Row>
       <Col
         sm={8}
-        className="border mt-2 mb-2 mx-auto font-lg text-center text-uppercase header-font shadow"
+        className="border bg-white mt-2 mb-2 mx-auto font-lg text-center text-uppercase header-font shadow"
       >
         <Row>
           <Col

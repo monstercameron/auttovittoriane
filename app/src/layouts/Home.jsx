@@ -14,13 +14,12 @@ class Home extends Component {
     this.props.history.push(link);
   };
   render() {
-    console.log(this.props);
     return (
-      <Container fluid className='marrakesk'>
+      <Container fluid className=''>
         {/* Header */}
         <Header linkTo={this.linkTo} />
         {/* body/content */}
-        <BodyContent />
+        <BodyContent {...this.props} />
         {/* footer/other info */}
         <Footer linkTo={this.linkTo} />
       </Container>
