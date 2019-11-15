@@ -16,7 +16,7 @@ class Home extends Component {
   render() {
     console.log(this.props);
     return (
-      <Container fluid>
+      <Container fluid className='marrakesk'>
         {/* Header */}
         <Header linkTo={this.linkTo} />
         {/* body/content */}
