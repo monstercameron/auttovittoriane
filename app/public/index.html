@@ -15,6 +15,16 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -25,8 +35,40 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>
+      const fullScreenImage = e => {
+        if (e.classList.contains("large")) {
+          e.classList.remove("large");
+        } else {
+          e.classList.add("large");
+        }
+      };
+    </script>
+    <style>
+      .large {
+        transform: scale(1.6);
+        z-index: 100;
+        box-shadow: 4px 4px 28px -2px rgba(0, 0, 0, 0.75);
+        animation-name: large-anim;
+        animation-duration: 0.5s;
+      }
+      .cursor {
+        cursor: pointer;
+      }
+      @keyframes large-anim {
+        from {
+          transform: scale(1);
+          box-shadow: 4px 4px 28px -2px rgba(0, 0, 0, 0);
+        }
+        to {
+          transform: scale(1.6);
+          box-shadow: 4px 4px 28px -2px rgba(0, 0, 0, 0.75);
+        }
+      }
+    </style>
   </head>
-  <body>
+
+  <body class="marrakesk">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

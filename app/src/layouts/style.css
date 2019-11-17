@@ -1,0 +1,83 @@
+.font-lg {
+  font-size: 1.5rem;
+}
+
+.argyle {
+  background-color: #6d695c;
+  background-image: repeating-linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    );
+  background-size: 70px 120px;
+}
+
+.weave {
+  background: linear-gradient(
+      135deg,
+      #708090 21px,
+      #d9ecff 22px,
+      #d9ecff 24px,
+      transparent 24px,
+      transparent 67px,
+      #d9ecff 67px,
+      #d9ecff 69px,
+      transparent 69px
+    ),
+    linear-gradient(
+        225deg,
+        #708090 21px,
+        #d9ecff 22px,
+        #d9ecff 24px,
+        transparent 24px,
+        transparent 67px,
+        #d9ecff 67px,
+        #d9ecff 69px,
+        transparent 69px
+      )
+      0 64px;
+  background-color: #708090;
+  background-size: 64px 128px;
+}
+
+.marrakesk {
+  background-color: white;
+  background-image: radial-gradient(rgba(169, 169, 194, .15) 9px, transparent 10px),
+    repeating-radial-gradient(
+      rgba(169, 169, 194, .15) 0,
+      rgba(169, 169, 194, .15) 4px,
+      transparent 5px,
+      transparent 20px,
+      rgba(169, 169, 194, .15) 21px,
+      rgba(169, 169, 194, .15) 25px,
+      transparent 26px,
+      transparent 50px
+    );
+  background-size: 30px 30px, 90px 90px;
+  background-position: 0 0;
+}

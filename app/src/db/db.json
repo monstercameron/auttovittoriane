@@ -1,16 +1,102 @@
 {
-    "cars": [
-      {
-        "id": 1,
-        "make": "Honda"
-      },
-      {
-        "id": 2,
-        "make": "Toyota"
-      },
-      {
-        "id": 3,
-        "make": "mazda"
-      }
-    ]
-  }
+  "cars": [
+    {
+      "id": 1,
+      "make": "Honda"
+    },
+    {
+      "id": 2,
+      "make": "Toyota"
+    },
+    {
+      "id": 3,
+      "make": "mazda"
+    }
+  ],
+  "posts": [
+    {
+      "date": "11/15/19",
+      "writer": "monstercameron",
+      "title": "first post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n  src=\"/images/test.jpg\"\r\n alt=\"test images\"\r\n onclick=\"fullScreenImage(this)\" class=\"cursor img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a   <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "0"
+    },
+    {
+      "date": "11/14/19",
+      "writer": "monstercameron",
+      "title": "second post post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "1"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "2"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "3"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "4"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "5"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "6"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "7"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "8"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "9"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "10"
+    },
+    {
+      "date": "11/13/19",
+      "writer": "monstercameron",
+      "title": "third post",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae\r\n        corporis tenetur facere esse, sapiente ea veritatis, voluptates,\r\n        eius dignissimos dolorem expedita at unde repellat voluptatibus a\r\n        similique rerum hic culpa!\r\n    <img\r\n      src={test}\r\n      alt=\"test images\"\r\n      class=\"img-fluid d-block img-thumbnail\"\r\n    />\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore\r\n    eaque ad deserunt, harum deleniti eveniet cupiditate magni quod\r\n    reiciendis corrupti autem ipsum vitae, veniam sed eum. Quibusdam, vel\r\n    dolorum! this is a{\" \"}\r\n    <a href=\"http://www.google.com\" target=\"_new\">\r\n      link\r\n    </a>",
+      "id": "11"
+    }
+  ]
+}
